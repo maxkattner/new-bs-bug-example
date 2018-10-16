@@ -1,0 +1,24 @@
+{
+  "name": "devPod",
+  "version": "1.0.0",
+  "summary": "ExampleSummary",
+  "description": "ExampleDescription",
+  "homepage": "https://www.example.com",
+  "license": "NONE",
+  "authors": {
+    "Max Kattner": "max.kattner@lovoo.com"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "swift_version": "4",
+  "source": {
+    "path": "."
+  },
+  "source_files": "**/*.swift",
+  "resources": "Resources/**/*",
+  "xcconfig": {
+    "SWIFT_INCLUDE_PATHS": "${PODS_TARGET_SRCROOT}/devPod"
+  },
+  "preserve_paths": "${PODS_TARGET_SRCROOT}/devPod/module.modulemap"
+}
