@@ -1,7 +1,7 @@
 # new-bs-bug-example
 Example project to show a bug in Xcode’s new build system related to development pods.
 
-# Original Bug Report
+# Original Bug Report (Radar #41126633)
 ## Changes in library’s file are not compiled until doing a clean build
 ### Summary:
 We have a project structure where we have a library included via cocoapods as a so-called development-pod. Whenever changes are made in a file inside the library they are not re-compiled when building our app. Only a clean build helps to make changes available in the app.
